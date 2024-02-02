@@ -1,6 +1,6 @@
 services:
 - type: pserv
-  name: mysql
+  name: mysql-2
   plan: standard
   env: docker
   autoDeploy: false
