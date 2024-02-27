@@ -1,6 +1,6 @@
 services:
 - type: pserv
-  numInstances: 2
+  numInstances: 1
   name: mysql-2
   plan: standard
   env: docker
