@@ -1,6 +1,11 @@
 services:
 - type: pserv
   numInstances: 2
+  scaling:
+    minInstances: 2
+    maxInstances: 5
+    targetMemoryPercent: 60 # optional if targetCPUPercent is set
+    targetCPUPercent: 60 # optional if targetMemory is set
   name: mysql-2
   plan: standard
   env: docker
