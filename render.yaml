@@ -1,6 +1,5 @@
 services:
 - type: pserv
-  numInstances: 2
   scaling:
     minInstances: 2
     maxInstances: 5
